@@ -1,0 +1,32 @@
+@media (max-width:768px) {
+    .rightnav {
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        background-color: black;
+        border: 1px solid red;
+        padding: 10px;
+        z-index: 999;
+    }
+
+    #menu-icon {
+        display: block;
+        margin-right: 20px;
+
+    }
+
+    .rightnav ul.active {
+        display: flex;
+    }
+
+    #home h1,#player h1,#gallery h1,#contact h1{
+        font-size: 1.6rem;
+    }
+    #home,#player,#gallery,#contact{
+        text-align: center;
+    }
+
+}

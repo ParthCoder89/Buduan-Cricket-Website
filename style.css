@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: black;
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+/* Navbar Section */
+
+#navbar {
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.leftnav {
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.leftnav .span1 {
+    font-size: 1.5rem;
+    color: yellowgreen;
+    padding-right: 2px;
+    text-shadow: 2px 2px 2px yellow;
+}
+
+.leftnav .span6 {
+    font-size: 1.1rem;
+    color: red;
+    margin-right: 7px;
+    text-shadow: 2px 2px 2px yellow;
+    margin-left: 2px;
+}
+
+.leftnav .span2,
+.leftnav .span3,
+.leftnav .span4,
+.leftnav .span5 {
+    font-size: 0.8rem;
+    color: rgb(190, 178, 248);
+}
+
+.leftnav .span7 {
+    font-size: 1.8rem;
+    color: yellowgreen;
+    text-shadow: 2px 2px 2px yellow;
+    padding-right: 3px;
+}
+
+.leftnav .span8,
+.leftnav .span9,
+.leftnav .span10,
+.leftnav .span11,
+.leftnav .span12 {
+    font-size: 0.8rem;
+    color: rgb(190, 178, 248);
+    ;
+}
+
+.leftnav .span13 {
+    margin-left: 2px;
+    font-size: 1.2rem;
+    color: red;
+    text-shadow: 2px 2px 2px yellow;
+}
+
+.rightnav {
+    margin-right: 30px;
+}
+
+.rightnav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.rightnav ul li {
+    list-style: none;
+}
+
+.rightnav ul li a {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: red;
+}
+
+#menu-icon {
+    display: none;
+    font-size: 2rem;
+    color: red;
+    cursor: pointer;
+}
+
+/* Home Section */
+
+#home {
+    width: 100vw;
+    height: auto;
+    margin-top: 100px;
+    background-color: black;
+}
+
+#home h1 {
+    text-align: center;
+    padding: 15px;
+    font-size: 2rem;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: orangered;
+    text-shadow: 2px 2px 2px whitesmoke;
+}
+
+#home-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-home {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.left-home p {
+    font-size: 1.2rem;
+    padding: 0px 30px 0px 30px;
+    margin: 0px 20px;
+    color: white;
+}
+.left-home span{
+    font-weight: 600;
+}
+
+.right-home {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-home img {
+    width: 350px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+/* Player Section */
+
+#player{
+    width: 100vw;
+    background-color:black;
+    margin-top: 100px;
+}
+#player h1{
+    text-align: center;
+    padding: 15px;
+    font-size: 2.4rem;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: orangered;
+    text-shadow: 2px 2px 2px whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#player div{
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    background-color: black;
+}
+#player div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#player div div h2{
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    color: yellow;
+    text-shadow: 2px 2px 2px white;
+}
+#player div div p{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+#player div div span marquee{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+#player div .img-div img{
+    width: 250px;
+    height: 300px ;
+    border-radius: 30px;
+    border: 2px solid red;
+}
+
+/* Memories Section */
+
+#gallery {
+    width: 100vw;
+    height: auto;
+    margin-top: 80px;
+    background-color: black;
+}
+#gallery h1 {
+    text-align: center;
+    padding: 15px;
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: orangered;
+    text-shadow: 2px 2px 2px whitesmoke;
+}
+#gallery .gallery-con div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+#gallery .gallery-con .photos img{
+    width: 500px;
+    border-radius: 30px;
+    border: 5px dotted white;
+}
+#gallery .gallery-con .photos .img4{
+    height: 500px;
+}
+.photo-para{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.photo-para p{
+    margin-top: -100px;
+}
+ 
+
+/* Contact Section */
+
+#contact{
+    width: 100vw;
+    height: 800px;
+    background-color: black;
+    height: auto;
+    margin-top: 100px;
+}
+#contact h1{
+    text-align: center;
+    padding: 15px;
+    font-size: 2rem;
+    margin: 30px;
+    margin-bottom: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: orangered;
+    text-shadow: 2px 2px 2px whitesmoke;  
+}
+.contact-con{
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact-con .left-contact,
+.contact-con .right-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.contact-con .left-contact h2{
+    font-size: 2.5rem;
+    font-family: monospace;
+    font-weight: 600;
+    margin-right: 20px;
+    color: red;
+    text-shadow: 0 0 10px red, 0 0 20px red,0 0 30px red;
+}
+.contact-con .left-contact h4{
+    font-size: 1.2rem;
+    font-family: monospace;
+    font-weight: 600;
+    margin-top: 14px;
+    color: yellow;
+}
+.contact-con .right-contact ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.contact-con .right-contact ul li{
+    list-style: none;
+}
+.contact-con .right-contact ul a{
+    text-decoration: none;
+    font-size: 2rem;
+}
+.i1{
+    color: green;
+}
+.i2{
+    color: blue;
+}
+.i3{
+    color: pink;
+}
