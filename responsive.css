@@ -108,6 +108,9 @@
      .left-home {
         width: 100%;
     }
+    .left-home p{
+        padding: 0px 0px 0px 0px;
+    }
     .right-home img{
         width: 280px;
     }
