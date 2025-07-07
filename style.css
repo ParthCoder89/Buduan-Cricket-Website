@@ -257,7 +257,13 @@ html{
 .photo-para p{
     margin-top: -100px;
 }
- 
+#gallery .gallery-con .photos video{
+    width: 500px;
+    height: 600px;
+    border-radius: 30px;
+    border: 5px dotted white;
+    
+}
 
 /* Contact Section */
 

@@ -73,6 +73,9 @@
     #gallery .gallery-con .photos img {
         width: 350px;
     }
+    #gallery .gallery-con .photos video{
+        width: 350px;
+    }
 
     .photo-para {
         font-size: 1.3rem;
@@ -128,6 +131,9 @@
         height: 220px;
     }
     #gallery .gallery-con .photos img{
+        width: 260px;
+    }
+    #gallery .gallery-con .photos video{
         width: 260px;
     }
     .photo-para {
