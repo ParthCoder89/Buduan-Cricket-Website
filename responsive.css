@@ -1,15 +1,16 @@
 @media (max-width:768px) {
-    .rightnav {
+    .rightnav ul{
         display: none;
         flex-direction: column;
         gap: 20px;
         position: absolute;
         top: 70px;
         right: 20px;
-        background-color: black;
+        background-color: white;
         border: 1px solid red;
         padding: 10px;
         z-index: 999;
+
     }
 
     #menu-icon {
@@ -22,11 +23,119 @@
         display: flex;
     }
 
-    #home h1,#player h1,#gallery h1,#contact h1{
+    #home h1,
+    #player h1,
+    #gallery h1,
+    #contact h1 {
         font-size: 1.6rem;
     }
-    #home,#player,#gallery,#contact{
+
+    #home,
+    #player,
+    #gallery,
+    #contact {
         text-align: center;
     }
 
+    #home-con {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .left-home {
+        width: 70%;
+    }
+
+    .left-home p {
+        font-size: 1.2rem;
+    }
+
+    .right-home img {
+        border: 3px solid white;
+        border-radius: 20px;
+        margin-bottom: 0px;
+    }
+
+    #player {
+        margin-top: 70px;
+    }
+
+    #player div div h2 {
+        font-size: 1.5rem;
+    }
+
+    #player div .img-div img {
+        width: 180px;
+        height: 250px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    #gallery .gallery-con .photos img {
+        width: 350px;
+    }
+
+    .photo-para {
+        font-size: 1.3rem;
+    }
+
+    #contact {
+        margin-top: 20px;
+    }
+
+    .contact-con {
+        height: 300px;
+        flex-direction: column;
+    }
+
+    .contact-con .left-contact h2 {
+        font-size: 2.2rem;
+    }
+
+    .contact-con .left-contact h4 {
+        font-size: 1.1rem;
+    }
+
+    .contact-con .right-contact ul a {
+        font-size: 1.7rem;
+    }
+
+}
+
+@media(max-width:425px) {
+    .leftnav {
+        margin-left: 10px;
+    }
+    .right-home img{
+        width: 280px;
+    }
+     #player div div h2 {
+        font-size: 1.3rem;
+    }
+    #player div div p{
+        font-size: 1rem;
+    }
+    #player div div span marquee{
+        font-size: 1.1rem;
+    }
+    #player div .img-div img{
+        width: 140px;
+        height: 220px;
+    }
+    #gallery .gallery-con .photos img{
+        width: 260px;
+    }
+    .photo-para {
+        font-size: 1.2rem;
+    }
+    contact-con .left-contact h2 {
+        font-size: 1.7rem;
+    }
+
+    .contact-con .left-contact h4 {
+        font-size: 1rem;
+    }
+
+    .contact-con .right-contact ul a {
+        font-size: 1.7rem;
+    }
 }
