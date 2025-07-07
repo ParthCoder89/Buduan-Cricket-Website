@@ -105,6 +105,9 @@
     .leftnav {
         margin-left: 10px;
     }
+     .left-home {
+        width: 100%;
+    }
     .right-home img{
         width: 280px;
     }
